@@ -1,0 +1,68 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  /* color: hsla(160, 100%, 37%, 1); */
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media () {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+.btn-login{
+  background-color: #FFB400;
+}
+
+.custom-border {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn-pilihan{
+  background-color: #C46A29;
+}
+.btn-display{
+  background-color: #FFEC8C;
+}
+
+.background{
+  background-color: #FFD919;
+}
+
+.background-table{
+  background-color: rgba(255, 236, 140, 0.5);
+  border-radius: 0.5rem;
+}
+
+.table-border{
+  border: 2px solid black;
+}
+
+.table-data{
+  border-radius: 2%;
+  width: 50%;
+}
